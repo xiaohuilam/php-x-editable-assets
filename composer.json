@@ -1,0 +1,26 @@
+{
+    "name": "diana/local-x-editable-assets",
+    "description": "local assets support for php-x-editable",
+    "type": "library",
+    "require": {
+        "diana/php-x-editable": "^0.03.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaohui.lam",
+            "email": "xiaohui.lam@e.hexdata.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Editable\\Assets\\": "src/",
+            "Editable\\Assets\\Install\\": "install/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Editable\\Assets\\Install\\Bash::postAutoloadDump"
+        ]
+    }
+}
