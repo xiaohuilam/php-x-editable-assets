@@ -2,12 +2,6 @@
     "name": "diana/php-x-editable-assets",
     "description": "local assets support for php-x-editable",
     "type": "library",
-    "require": {
-        "diana/php-x-editable": "^0.03.0"
-    },
-    "require-dev": {
-        "diana/php-x-editable": "dev-master"
-    },
     "license": "MIT",
     "authors": [
         {
