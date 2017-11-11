@@ -5,6 +5,9 @@
     "require": {
         "diana/php-x-editable": "^0.03.0"
     },
+    "require-dev": {
+        "diana/php-x-editable": "dev-master"
+    },
     "license": "MIT",
     "authors": [
         {
