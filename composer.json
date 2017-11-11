@@ -1,5 +1,5 @@
 {
-    "name": "diana/local-x-editable-assets",
+    "name": "diana/php-x-editable-assets",
     "description": "local assets support for php-x-editable",
     "type": "library",
     "require": {
