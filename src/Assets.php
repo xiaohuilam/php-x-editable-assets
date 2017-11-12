@@ -5,6 +5,17 @@ use Editable\Integrates\EditableException;
 
 class Assets implements \Editable\Assets\Interfaces\EditableAssetsInterface{
     protected $vendor_assets = [
+        'xeditable'     => [
+            'css'   => [
+                '/x-editable-assets/twbs/bootstrap@3.3.5/dist/css/bootstrap.min.css',
+                '/x-editable-assets/vitalets/x-editable@1.5.1/dist/bootstrap3-editable/css/bootstrap-editable.min.css',
+            ],
+            'js'    => [
+                '/x-editable-assets/jquery@1.12.1/dist/jquery.min.js',
+                '/x-editable-assets/twbs/bootstrap@3.3.5/dist/js/bootstrap.min.js',
+                '/x-editable-assets/vitalets/x-editable@1.5.1/dist/bootstrap3-editable/js/bootstrap-editable.min.js',
+            ],
+        ],
         'text'          => ['css' => [], 'js' => []],
         'select'        => ['css' => [], 'js' => []],
         'checklist'     => ['css' => [], 'js' => []],
